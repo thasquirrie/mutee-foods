@@ -1,0 +1,40 @@
+/* Big tablet to 1200px (width smaller than the 1140px row) */
+@media only screen and (max-width: 1200) {
+  .large-text {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {padding: 0 2%;}
+}
+
+
+/* Small tablet to big tablet: 768px to 1023px */
+@media only screen and (max-width: 1023) {
+  body {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+  
+  .large-text {
+    width: 100%;
+    text-align: center;
+    padding: 0 2%;
+  }
+
+  .row {padding: 0 2%;}
+}
+
+
+/* Small phones to small tablets: 481px to 767px */
+@media only screen and (max-width: 767) {
+
+}
+
+/* Phones with small screen size from 0 - 480px */
+@media only screen and (max-width: 480px) {
+
+}
