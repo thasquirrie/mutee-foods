@@ -315,7 +315,7 @@ span {
   display: block; 
   margin: 0 auto;
   text-align: center; */
-}
+/* } */
 
 .plan-box div:first-child {
   background-color: #fcfcfc;
@@ -324,7 +324,7 @@ span {
 
 .plan-box div:last-child {
   text-align: center
-  border: 0;
+  /* border: 0; */
 }
 
 /* FOOTER */
